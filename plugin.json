@@ -5,8 +5,8 @@
   "author" : "Alvaro Luis Bustamante",
   "license" : "MIT",
   "repository" : {
-    "type" : "storage",
-    "storage" : "ttn_stack_plugin"
+    "type" : "git",
+    "url" : "https://github.com/thinger-io/ttn-stack-plugin.git"
   },
   "metadata" : {
     "name" : "The Things Stack",
