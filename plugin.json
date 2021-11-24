@@ -1,6 +1,6 @@
 {
   "name" : "ttn-stack",
-  "version" : "1.0.1",
+  "version" : "1.0.2",
   "description" : "Plugin for handling The Things Stack integration",
   "author" : "Alvaro Luis Bustamante",
   "license" : "MIT",
@@ -21,8 +21,8 @@
         "Device" : {
           "*" : ["CreateDevice", "SetDeviceProperty", "ReadDeviceProperty", "UpdateDeviceCallback", "CallDeviceCallback"]
         },
-        "Event" : {
-          "*" : ["SubscribeEvents"]
+        "User" : {
+          "*" : ["SubscribeUserEvents"]
         },
         "Bucket" : {
           "*" : ["CreateBucket"]
